@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T10:46:22.464Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="8rRyw7exVu_-Pnqkj99Y" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T10:59:53.232Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="k35C5wgyZEysg0hLQXQ_" version="21.6.8" type="github">
   <diagram name="Page-1" id="OSPce-yFw67WcBIM2orQ">
     <mxGraphModel dx="1516" dy="1325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="i4OlTnIS3b3Mg1XfSlxI-16" value="backup = extract(line);" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="710" y="990" width="130" height="40" as="geometry" />
+          <mxGeometry x="410" y="100" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i4OlTnIS3b3Mg1XfSlxI-17" value="line = function_name(fd, buf, backup);" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="650" y="890" width="200" height="60" as="geometry" />
+          <mxGeometry x="400" y="10" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i4OlTnIS3b3Mg1XfSlxI-40" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry width="390" height="1130" as="geometry" />
@@ -129,6 +129,33 @@
           <mxGeometry x="-0.425" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-41" value="static char&amp;nbsp;&amp;nbsp;&amp;nbsp; *extract(char *line)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="720" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-42" value="int&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; read_line;&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;char&amp;nbsp;&amp;nbsp;&amp;nbsp; *char_temp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="722.5" y="110" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-43" value="read_line = 1;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="745" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-44" value="while (read_line != &#39;\0&#39;)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722.5" y="290" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-45" value="read_line = read(fd, buf, BUFFER_SIZE);" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="690" y="410" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-46" value="read_line = read(fd, buf, BUFFER_SIZE);" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="405" y="170" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-47" value="if (read_line == -1)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="722.5" y="510" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-48" value="if (read_line == 0)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="732.5" y="650" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-49" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="745" y="760" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
