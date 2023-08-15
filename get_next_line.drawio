@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T11:07:15.733Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="RBXs5tX3gsrTSuukT_ve" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T11:26:13.290Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="AGjlx3Wh0rRM4NDTG843" version="21.6.8" type="github">
   <diagram name="Page-1" id="OSPce-yFw67WcBIM2orQ">
     <mxGraphModel dx="1516" dy="1325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -130,14 +130,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i4OlTnIS3b3Mg1XfSlxI-41" target="i4OlTnIS3b3Mg1XfSlxI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i4OlTnIS3b3Mg1XfSlxI-41" value="static char&amp;nbsp;&amp;nbsp;&amp;nbsp; *extract(char *line)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="720" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i4OlTnIS3b3Mg1XfSlxI-42" target="i4OlTnIS3b3Mg1XfSlxI-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i4OlTnIS3b3Mg1XfSlxI-42" value="int&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; read_line;&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;char&amp;nbsp;&amp;nbsp;&amp;nbsp; *char_temp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="722.5" y="110" width="145" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i4OlTnIS3b3Mg1XfSlxI-43" target="i4OlTnIS3b3Mg1XfSlxI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i4OlTnIS3b3Mg1XfSlxI-43" value="read_line = 1;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="745" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OlTnIS3b3Mg1XfSlxI-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i4OlTnIS3b3Mg1XfSlxI-44" target="i4OlTnIS3b3Mg1XfSlxI-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i4OlTnIS3b3Mg1XfSlxI-44" value="while (read_line != &#39;\0&#39;)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="722.5" y="290" width="145" height="80" as="geometry" />
