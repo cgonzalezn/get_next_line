@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T07:57:56.263Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="yfU78U7W3mzwVHTmhCLd" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T08:11:42.242Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="41s259Q_72718R1nfKmR" version="21.6.8" type="github">
   <diagram name="Page-1" id="OSPce-yFw67WcBIM2orQ">
     <mxGraphModel dx="460" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -721,7 +721,7 @@
         <mxCell id="PnKVzpPMCXGgYi5iphY5-56" value="se le da espacion en memoria con malloc a buffer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="715" y="2320" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="PnKVzpPMCXGgYi5iphY5-60">
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-169" target="PnKVzpPMCXGgYi5iphY5-60">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="802.5" y="3127.5" as="sourcePoint" />
           </mxGeometry>
@@ -751,25 +751,8 @@
         <mxCell id="PnKVzpPMCXGgYi5iphY5-57" value="es read_line -1 que indica error en la funcion read()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="751.25" y="2690" width="115" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-60" target="PnKVzpPMCXGgYi5iphY5-86">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1172.5" y="3257.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1102.5" y="3257.5" />
-              <mxPoint x="1102.5" y="3947.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-63" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PnKVzpPMCXGgYi5iphY5-61">
-          <mxGeometry x="-0.7428" y="-3" relative="1" as="geometry">
-            <mxPoint x="-13" y="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-60" target="PnKVzpPMCXGgYi5iphY5-94">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-60" value="si read() devuelve 0 no hay datos para leer" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="3197.5" width="125" height="120" as="geometry" />
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-60" value="buffer contine &#39;\n&#39;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="746.5" y="3165.5" width="125" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-81" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1380.001247771687" y="2600.0014285714283" width="289.99878788132105" height="411.42857142857156" as="geometry" />
@@ -971,12 +954,12 @@
           <mxGeometry x="871.5" y="2870" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-169" value="se examina si buffer continen &quot;\n&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="758.75" y="3060" width="100" height="100" as="geometry" />
+          <mxGeometry x="758.75" y="3060" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-171" target="PnKVzpPMCXGgYi5iphY5-169">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-175" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PnKVzpPMCXGgYi5iphY5-174">
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-175" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PnKVzpPMCXGgYi5iphY5-174">
           <mxGeometry x="-0.5588" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
