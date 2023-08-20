@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T08:41:22.975Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="lMwI469abtItgbkYY7q5" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T08:42:28.325Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="DKGUit7og-XWfzBtw0Ou" version="21.6.8" type="github">
   <diagram name="Page-1" id="OSPce-yFw67WcBIM2orQ">
     <mxGraphModel dx="619" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -838,7 +838,7 @@
         <mxCell id="PnKVzpPMCXGgYi5iphY5-148" value="se libera las memorias" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="2511" width="120" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-153" target="PnKVzpPMCXGgYi5iphY5-155">
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-153" target="PnKVzpPMCXGgYi5iphY5-155">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="914" y="2230" />
@@ -860,7 +860,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-153" value="tuvo problemas asignando memoria? " style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="745.51" y="2180" width="131.01" height="100" as="geometry" />
+          <mxGeometry x="745.25" y="2191" width="131.01" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-155" target="PnKVzpPMCXGgYi5iphY5-156">
           <mxGeometry relative="1" as="geometry" />
