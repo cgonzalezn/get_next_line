@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T08:26:09.974Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="H_Eik05-EBi_DlrOL7VL" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T08:32:33.530Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="3wP6H-XDOfw7CoBio5sN" version="21.6.8" type="github">
   <diagram name="Page-1" id="OSPce-yFw67WcBIM2orQ">
     <mxGraphModel dx="619" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
         <mxCell id="PnKVzpPMCXGgYi5iphY5-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-136" target="PnKVzpPMCXGgYi5iphY5-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-136" value="se busca si tiene un final de lina &#39;\n&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-136" value="se busca si tiene un final de linea &#39;\n&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="2020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-138" target="PnKVzpPMCXGgYi5iphY5-140">
@@ -808,35 +808,35 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-138" value="remainder tiene final de linea \n" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="990" y="2120" width="100" height="100" as="geometry" />
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-138" value="&lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;remainder&lt;/span&gt; tiene final de linea \n" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2121" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-140" target="PnKVzpPMCXGgYi5iphY5-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-140" value="se guarda del principio hasta el final de linea en&amp;nbsp; la variable linea" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="990" y="2270" width="100" height="100" as="geometry" />
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-140" value="se guarda del principio hasta el final de linea en&amp;nbsp; la variable &lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;linea&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2250" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-142" target="PnKVzpPMCXGgYi5iphY5-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-142" value="se guarde desde &#39;\n&#39; hasta el final en la varible estatica remainder " style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="990" y="2410" width="100" height="100" as="geometry" />
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-142" value="se guarde desde &#39;\n&#39; hasta el final en la varible estatica &lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;remainder&lt;/span&gt; " style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2380" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-144" target="PnKVzpPMCXGgYi5iphY5-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-144" value="return (linea)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="2710" width="120" height="40" as="geometry" />
+          <mxGeometry x="995" y="2590" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-146" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="2840" width="60" height="40" as="geometry" />
+          <mxGeometry x="1010" y="2680" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-148" target="PnKVzpPMCXGgYi5iphY5-144">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-148" value="se libera las memorias" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="2570" width="120" height="60" as="geometry" />
+          <mxGeometry x="980" y="2511" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-153" target="PnKVzpPMCXGgYi5iphY5-155">
           <mxGeometry relative="1" as="geometry" />
