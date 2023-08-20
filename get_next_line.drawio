@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T08:38:49.268Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="6xikedVQTulzpeYefPAF" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T08:41:22.975Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="lMwI469abtItgbkYY7q5" version="21.6.8" type="github">
   <diagram name="Page-1" id="OSPce-yFw67WcBIM2orQ">
     <mxGraphModel dx="619" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -689,7 +689,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-47" value="return (NULL);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="1797.5" width="100" height="55" as="geometry" />
+          <mxGeometry x="1070" y="1808.75" width="100" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-53" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1088.75" y="1887.5" width="62.5" height="42.5" as="geometry" />
@@ -798,7 +798,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-136" value="se busca si tiene un final de linea &#39;\n&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="2020" width="120" height="60" as="geometry" />
+          <mxGeometry x="980" y="2020" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-138" target="PnKVzpPMCXGgYi5iphY5-140">
           <mxGeometry relative="1" as="geometry" />
@@ -839,11 +839,16 @@
           <mxGeometry x="980" y="2511" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-153" target="PnKVzpPMCXGgYi5iphY5-155">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="914" y="2230" />
+              <mxPoint x="914" y="2271" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-158" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PnKVzpPMCXGgYi5iphY5-157">
           <mxGeometry x="-0.4711" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-8" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-153" target="PnKVzpPMCXGgYi5iphY5-161">
@@ -855,7 +860,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-153" value="tuvo problemas asignando memoria? " style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="761.01" y="2191" width="100" height="100" as="geometry" />
+          <mxGeometry x="745.51" y="2180" width="131.01" height="100" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-155" target="PnKVzpPMCXGgYi5iphY5-156">
           <mxGeometry relative="1" as="geometry" />
