@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T08:32:33.530Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="3wP6H-XDOfw7CoBio5sN" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T08:36:59.285Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="XbEJC5okprsJACFRr-Ik" version="21.6.8" type="github">
   <diagram name="Page-1" id="OSPce-yFw67WcBIM2orQ">
     <mxGraphModel dx="619" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
         <mxCell id="PnKVzpPMCXGgYi5iphY5-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-56" target="PnKVzpPMCXGgYi5iphY5-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PnKVzpPMCXGgYi5iphY5-56" value="se le da espacion en memoria con malloc a buffer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="PnKVzpPMCXGgYi5iphY5-56" value="se le da espacion en memoria con malloc a &lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;buffer&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="715" y="2070" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PnKVzpPMCXGgYi5iphY5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PnKVzpPMCXGgYi5iphY5-169" target="PnKVzpPMCXGgYi5iphY5-60">
